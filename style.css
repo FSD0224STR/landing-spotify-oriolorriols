@@ -1,0 +1,28 @@
+main{
+    background-color: rgba(18,18,18,1);
+}
+
+header{
+    background-color: rgba(18,18,18,1)
+}
+
+nav{
+    font-weight: bold;
+}
+
+#first{
+    background: rgb(229,189,194);
+    background: linear-gradient(180deg, rgba(229,189,194,1) 0%, rgba(18,18,18,1) 45%);
+}   
+
+nav, h1, h2, p{
+    color: white
+}
+
+.planes{
+    border: 10px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-radius: 12px;
+
+}
