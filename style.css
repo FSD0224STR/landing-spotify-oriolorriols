@@ -1,0 +1,74 @@
+*{
+    color: white;
+}
+
+
+main, header{
+    background-color: rgba(18,18,18,1);
+}
+
+
+#first{
+    background: rgb(229,189,194);
+    background: linear-gradient(180deg, rgba(229,189,194,1) 0%, rgba(18,18,18,1) 45%);
+}   
+
+
+.bold{
+    font-weight: 700;
+}
+
+
+.planes{
+    border: 10px solid;
+    border-radius: 12px;
+    padding: 12px;
+}
+
+.all{
+    border-color: #B00D6E;
+    border-width: 3px;
+}
+
+.individual{
+    border-color: #FFD2D7;
+    border-width: 4px;
+}
+
+.estudiantes{
+    border-color: #C4B1D4;
+    border-width: 4px;
+}
+
+.duo{
+    border-color: #FFC862;
+    border-width: 4px;
+}
+
+.familiar{
+    border-color: #A5BBD1;
+    border-width: 4px;
+}
+
+
+
+
+.planes.all ul {
+    --icon-space: 1.3em;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .planes.all li {
+    padding-left: var(--icon-space);
+    
+  }
+  
+  .planes.all li:before {
+    content: "\f00c"; /* FontAwesome Unicode */
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1 );
+    width: var(--icon-space);
+    color: white;
+  }
