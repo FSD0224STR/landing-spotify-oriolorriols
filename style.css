@@ -25,6 +25,61 @@ main, header{
     padding: 12px;
 }
 
+.planes [class*="-fill"]{
+    width: fit-content;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.planes > div > [class*="-fill"] > p {
+    width: fit-content;
+    color: black;
+    font-weight: 700;
+    margin: 0;
+}
+
+.premium p{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    padding-top: 3px;
+}
+
+.premium span{
+    font-size: 10px;
+    
+}
+
+h3{
+    font-size: 22px !important;
+    font-weight: bold;
+}
+
+.buttonplan{
+    border-radius: 20px !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+    color: black;
+    font-weight: 700;
+}
+
+.smalltext{
+    font-size: 11px;
+    
+}
+
+
+@media (min-width: 768px) {
+    .staylow {
+      position: absolute !important;
+      bottom: 0;
+      height: 205px !important;
+      width: 315px !important;
+    }
+  }
+
+
+
 .all{
     border-color: #B00D6E;
     border-width: 3px;
@@ -35,9 +90,17 @@ main, header{
     border-width: 4px;
 }
 
+.individual-fill{
+    background-color: #FFD2D7 !important;
+}
+
 .estudiantes{
     border-color: #C4B1D4;
     border-width: 4px;
+}
+
+.estudiantes-fill{
+    background-color: #C4B1D4 !important;
 }
 
 .duo{
@@ -45,11 +108,19 @@ main, header{
     border-width: 4px;
 }
 
+.duo-fill{
+    background-color: #FFC862 !important;
+}
+
+
 .familiar{
     border-color: #A5BBD1;
     border-width: 4px;
 }
 
+.familiar-fill{
+    background-color: #A5BBD1 !important;
+}
 
 
 
